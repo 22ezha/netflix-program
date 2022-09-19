@@ -1,0 +1,31 @@
+/******************************************************************************
+Eric Zhang
+Comp Sci 3
+3/9/2021
+More on Array Lists Graded Program
+*******************************************************************************/
+import java.util.ArrayList;
+public class Movie 
+{
+    private String name;
+    private String format;
+
+    public Movie ()
+    {
+        name = "name";
+        format = "format";
+    }
+    public Movie (String n, String f)
+    {
+        name = n;
+        format = f;
+    }
+    public String getName()
+    {
+        return name;
+    }
+    public String getFormat()
+    {
+        return format;
+    }
+}
